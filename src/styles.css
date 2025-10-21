@@ -1,0 +1,16 @@
+/* Basic layout styles for the exhibit app */
+.container { max-width: 960px; margin: 0 auto; padding: 16px; }
+.header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { font-weight: 700; text-decoration: none; color: inherit; }
+.nav { display: flex; gap: 12px; }
+.nav a { text-decoration: none; color: #333; padding: 6px 8px; border-radius: 6px; }
+.nav a.active { background: #efefef; }
+.main { margin-top: 24px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+.card { border: 1px solid #eee; border-radius: 8px; padding: 10px; background: #fff; }
+.uploader { display: grid; gap: 12px; }
+.uploader input[type="file"] { padding: 6px; }
+.uploader textarea { width: 100%; min-height: 120px; padding: 8px; }
+.audio-player { width: 100%; }
+
+
