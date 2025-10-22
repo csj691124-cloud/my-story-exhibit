@@ -94,7 +94,7 @@ function Layout() {
         <Brand to="/">My Story Exhibit</Brand>
         {/* 네비게이션 메뉴 */}
         <Nav>
-          <NavLinkStyled to="/dotline">점선면</NavLinkStyled>
+          <NavLinkStyled to="/dotline">인생그래프</NavLinkStyled>
           <NavLinkStyled to="/poetry">시</NavLinkStyled>
           <NavLinkStyled to="/song">노래</NavLinkStyled>
         </Nav>
@@ -148,8 +148,8 @@ const HomeDescription = styled.p`
 function HomePage() {
   return (
     <HomeSection>
-      <HomeTitle>점선면, 시, 노래</HomeTitle>
-      <HomeDescription>점선면, 시, 노래로 구성된 나만의 이야기 전시</HomeDescription>
+      <HomeTitle>인생그래프, 시, 노래</HomeTitle>
+      <HomeDescription>인생그래프, 시, 노래로 구성된 나만의 이야기 전시</HomeDescription>
     </HomeSection>
   )
 }

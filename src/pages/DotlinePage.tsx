@@ -312,7 +312,7 @@ function AudioPlayerComponent({ audio }: { audio: AudioItem }) {
 }
 
 // ===== MAIN COMPONENT =====
-// 점선면 페이지 메인 컴포넌트 - 이미지와 오디오를 표시
+// 인생그래프 페이지 메인 컴포넌트 - 이미지와 오디오를 표시
 export default function DotlinePage() {
   return (
     <Section>
