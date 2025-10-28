@@ -325,7 +325,7 @@ export default function SongPage() {
       <ContentGrid>
         {/* 가사 섹션 */}
         <SectionContainer>
-          <SectionTitle>가사</SectionTitle>
+          <SectionTitle>글</SectionTitle>
           <Grid>
             {/* 가사 목록 렌더링 - map으로 반복 */}
             {songTexts.map((text) => (
