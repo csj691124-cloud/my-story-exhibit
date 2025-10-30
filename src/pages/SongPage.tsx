@@ -18,7 +18,7 @@ const PageTitle = styled.h2`
   text-align: center;
   margin-bottom: 3rem;
   // 그라데이션 텍스트 효과
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #3b82f6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -61,7 +61,7 @@ const SectionTitle = styled.h3`
     transform: translateX(-50%);  // 중앙 정렬
     width: 50px;
     height: 3px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #3b82f6 100%);
     border-radius: 2px;
   }
 `
@@ -124,7 +124,7 @@ const AudioCard = styled(Card)`
 // ===== CUSTOM AUDIO PLAYER STYLED COMPONENTS =====
 // 커스텀 오디오 플레이어 컨테이너 - 그라데이션 배경
 const CustomAudioPlayer = styled.div`
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #3b82f6 100%);
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
@@ -325,7 +325,7 @@ export default function SongPage() {
       <ContentGrid>
         {/* 가사 섹션 */}
         <SectionContainer>
-          <SectionTitle>가사</SectionTitle>
+          <SectionTitle>글</SectionTitle>
           <Grid>
             {/* 가사 목록 렌더링 - map으로 반복 */}
             {songTexts.map((text) => (
