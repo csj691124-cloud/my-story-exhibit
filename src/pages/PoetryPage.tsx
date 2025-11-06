@@ -124,14 +124,14 @@ const TextCard = styled(Card)`
 // 텍스트 제목
 const TextTitle = styled.h4`
   margin: 0 0 1rem 0;
-  color: #2c3e50;
+  color: #6B8E23;
   font-size: 1.3rem;
   font-weight: 600;
 `
 
 // 텍스트 내용 - 줄바꿈 보존
 const TextContent = styled.p`
-  color: #495057;
+  color: #6B8E23;
   line-height: 1.8;  // 줄 간격
   font-size: 1rem;
   margin: 0;
