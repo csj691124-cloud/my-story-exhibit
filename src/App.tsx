@@ -91,7 +91,7 @@ function Layout() {
       {/* 헤더 영역 - 브랜드와 네비게이션 */}
       <Header>
         {/* 브랜드 로고 - 홈으로 이동하는 링크 */}
-        <Brand to="/">My Story Exhibit</Brand>
+        <Brand to="/">선정이 갤러리</Brand>
         {/* 네비게이션 메뉴 */}
         <Nav>
           <NavLinkStyled to="/dotline">인생그래프</NavLinkStyled>
