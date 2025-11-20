@@ -101,6 +101,7 @@ export const songTexts = [
 
 export const songAudio = [
   { id: 'sa1', title: '보리빛 인생', src: '/audio/보리빛 인생 - AI.mp3' },
+  { id: 'sa2', title: '보리빛 인생2', src: '/audio/보리빛 인생 - AI (1).mp3' },
 ]
 
 
